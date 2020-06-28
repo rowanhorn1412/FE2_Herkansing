@@ -100,26 +100,35 @@ input[type=text], input[type=password], input[type=email] {
   border: none;
   border-bottom: 2px solid #3C415A; 
   background-color: #f5f1df;
+
   
+}
+input:valid {
+  border-bottom: 3px solid #378b48;
+  opacity: 1;
 }
 
   /* Set a style for all buttons */
 button {
   background-color:   #DE5F5A;
-  color: black;
-  padding: 14px 20px;
-  margin: 14px 20px;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 2em;
   border: black;
   cursor: pointer;
-  width: 90%;
-  display: initial;
+  width: 200px;
+  display: block;
   border-radius: 25px; 
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
   
 /* Add a hover effect for buttons */
 button:hover {
-  opacity: 0.6;
-  transition: 0.5s;
+  background-color: #dea945;
+  transition: 1s;
 }
 
   /* add style for button text */
@@ -127,7 +136,7 @@ button[type=submit] {
   color: white;
   font-size: 1em;
   font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
 button[type=button] {
@@ -138,15 +147,19 @@ button[type=button] {
   
 /* Extra style for the button to register page */
 #toRegister {
-  width: auto;
-  padding: 10px 30px;
   background-color: rgb(88, 87, 87);
-  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
-  outline: none;
-  border: none;
-  border-radius: 25px;
-  margin-top: 5em;
-  margin-left: 1.5em;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 2em;
+  cursor: pointer;
+  width: 200px;
+  display: block;
+  border-radius: 25px; 
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
 /* placeholder for input fields */
@@ -160,8 +173,6 @@ a {
   text-decoration: none;
   font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 1em;
-  
-  
 }
 
 
@@ -211,15 +222,19 @@ input, select, textarea{
 
 /* Extra style for the button to login page */
 #toLogin {
-  width: auto;
-  padding: 10px 30px;
   background-color: rgb(88, 87, 87);
-  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
-  outline: none;
-  border: none;
-  border-radius: 25px;
-  margin-top: 1em;
-  position: absolute;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 2em;
+  cursor: pointer;
+  width: 200px;
+  display: block;
+  border-radius: 25px; 
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
 /* //////////////////////////////////////////////////////////////////////////
@@ -227,18 +242,26 @@ input, select, textarea{
 ///////////////////////////////////////////////////////////////////////// */
 
 a#offButton {
-  width: auto;
-  padding: 10px 30px;
-  background-color: #DE5F5A;
-  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
-  outline: none;
-  border: none;
-  border-radius: 25px;
-  margin-top: 1em;
-  position: absolute;
+  background-color:   #DE5F5A;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 2em;
+  cursor: pointer;
+  width: 200px;
+  display: block;
+  border-radius: 25px; 
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
-
+/* Add a hover effect for buttons */
+a#offButton:hover {
+  background-color: #dea945;
+  transition: 1s;
+}
 /* //////////////////////////////////////////////////////////////////////////
 //////////////////////////--------------------//////////////////////////////
 ///////////////////////////////////////////////////////////////////////// */
