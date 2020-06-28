@@ -16,33 +16,30 @@
     <main>
         <form action="registration" id="registration" method="POST">
             <fieldset class="reg-con-1"> 
-                <h2>Who are you?</h2>
+                <h2>Credentials</h2>
+                <label for="email">Email</label>
+                <input type="email" required name="email" id="email" minlength="6" maxlength="60" placeholder="test@hotmail.com">
+                <label for="password">Password</label>
+                <input type="password" required name="password" id="password" minlength="6" placeholder="Minimum 6 characters">
+            </fieldset>
+            <fieldset class="reg-con-2"> 
+                <h2>Tell us something about yourself..</h2>
                 <label for="firstname">First name</label>
                 <input type="text" placeholder="First name" id="firstname" required name="firstname">
                 <label for="lastname">Last name</label>
                 <input type="text" placeholder="Last name" id="lastname" required name="lastname">  
-            </fieldset>
-            <fieldset class="reg-con-2"> 
-                <h2>Credentials</h2>
-                <label for="email">Email</label>
-                <input type="email" required name="email" minlength="6" maxlength="60" placeholder="test@hotmail.com">
-                <label for="password">Password</label>
-                <input type="password" required name="password" minlength="6" placeholder="Minimum 6 characters">
-            </fieldset>
-            <fieldset class="reg-con-3">
-                <h2>Tell us something about yourself..</h2>
                 <h4>What is your gender?</h4>
                 <input type="radio" id="male" name="gender">
                 <label for="male">Male</label>
                 <input type="radio" id="female" name="gender">
                 <label for="female">Female</label>
             </fieldset>
-            <button type="submit" id="button" formaction="home.html">Create</button>
+            <button type="submit" id="submit" formaction="home.html">Create</button>
             <a href="../index.html" id="toLogin">to login</a>
          </form>
     </main>
     <footer>
-        <script type="text/javascript" src="/script/registration.js"></script>
+        <script type="text/javascript" src="../script/registration.js"></script>
     </footer>
 
 </body>
