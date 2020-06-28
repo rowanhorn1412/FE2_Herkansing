@@ -15,7 +15,7 @@ h1 {
 h2 {
   text-align: center;
   color: #3C415A;
-  padding-top: 2.5em;
+  padding-top: 1.5em;
   padding-bottom: 1em;
 }
 
@@ -24,6 +24,12 @@ h3 {
   color: #3C415A;
   padding-top: 2em;
   padding-bottom: 0.5em;
+}
+
+h4 {
+  text-align: left;
+  color: #3C415A;
+  font-weight: normal;
 }
 
 body {
@@ -128,13 +134,16 @@ button[type=button] {
 }
   
 /* Extra style for the button to register page */
-.toRegister {
+#toRegister {
   width: auto;
   padding: 10px 30px;
   background-color: rgb(88, 87, 87);
   font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
   outline: none;
   border: none;
+  border-radius: 25px;
+  margin-top: 5em;
+  margin-left: 1.5em;
 }
 
 /* forgot password */
@@ -151,7 +160,6 @@ button[type=button] {
   color: white;
   font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 a {
   color: white;
@@ -189,6 +197,7 @@ a:hover {
   text-align: center;
   padding: 16px;
   color: white;
+  border: none;
 }
 
 label {
@@ -220,13 +229,16 @@ input, select, textarea{
 }
 
 /* Extra style for the button to login page */
-.toLogin {
+#toLogin {
   width: auto;
   padding: 10px 30px;
   background-color: rgb(88, 87, 87);
   font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
   outline: none;
   border: none;
+  border-radius: 25px;
+  margin-top: 5em;
+  margin-left: 1.5em;
 }
 
 /* //////////////////////////////////////////////////////////////////////////

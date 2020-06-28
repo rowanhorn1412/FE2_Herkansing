@@ -14,27 +14,23 @@
       <img class="logo" src="images/Rover.png" alt="logo">
   </header>
 
-  <form>   
-    <div class="login-con-1">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Username" name="uname" required>
+  <main>
+    <form>   
+      <div class="login-con-1">
+        <label for="uname">Username</label>
+        <input type="text" placeholder="Username" name="uname" required>
+        <label for="psw">Password</label>
+        <input type="password" placeholder="Password" name="psw" required>
+      </div>
+      <div class="login-con-2">
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+        <button type="submit" formaction="/html/home.html">Login</button>
+      </div>
+      <a href="html/registration.html" id="toRegister">to registration</a>
+    </form>
+  </main>
   
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Password" name="psw" required>
-    </div>
-
-    <div class="login-con-2">
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-      <button type="submit">Login</button>
-    
-  
-    
-      <button type="button" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-  </form>
-
 </body>
 </html>

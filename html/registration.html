@@ -8,39 +8,42 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <title>Rover</title>
 </head>
+
 <body>
-    <img class="logo" src="../images/Rover.png" alt="logo">
-            <form action="registration" id="registration" method="POST">
-               
-                <div class="reg-con-1"> 
-                    <label for="uname">First name</label>
-                    <input type="text" placeholder="First name" name="Fname" required>
-  
-                    <label for="psw">Last name</label>
-                    <input type="text" placeholder="Last name" name="Lname" required>  
-                </div>
-                
-                <div class="reg-con-2"> 
-                    <label for="email">Email</label>
-                    <input type="email" required name="email " minlength="6 " maxlength="60 " placeholder="test@hotmail.com ">
-                    <label for='wachtwoord'>Password</label>
-                    <input type="password" required name="wachtwoord " minlength="6 " placeholder="Minimaal 6 tekens ">
-                </div>
+    <header>
+        <img class="logo" src="../images/Rover.png" alt="logo">
+    </header>
+    <main>
+        <form action="registration" id="registration" method="POST">
+            <fieldset class="reg-con-1"> 
+                <h2>Who are you?</h2>
+                <label for="firstname">First name</label>
+                <input type="text" placeholder="First name" id="firstname" required name="firstname">
+                <label for="lastname">Last name</label>
+                <input type="text" placeholder="Last name" id="lastname" required name="lastname">  
+            </fieldset>
+            <fieldset class="reg-con-2"> 
+                <h2>Credentials</h2>
+                <label for="email">Email</label>
+                <input type="email" required name="email" minlength="6" maxlength="60" placeholder="test@hotmail.com">
+                <label for="password">Password</label>
+                <input type="password" required name="password" minlength="6" placeholder="Minimum 6 characters">
+            </fieldset>
+            <fieldset class="reg-con-3">
+                <h2>Tell us something about yourself..</h2>
+                <h4>What is your gender?</h4>
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+            </fieldset>
+            <button type="submit" id="button" formaction="home.html">Create</button>
+            <a href="../index.html" id="toLogin">to login</a>
+         </form>
+    </main>
+    <footer>
+        <script type="text/javascript" src="/script/registration.js"></script>
+    </footer>
 
-            
-                <div class="reg-con-3">
-                    <h2>Tell us something about yourself..</h2>
-                    <h3>What is your gender?</h3>
-                
-                    <label for="male" >Male
-                        <input type="radio" id="male" name="male">
-                    </label>
-
-                    <label for="female" >Female
-                        <input type="radio" id="female" name="female">
-                    </label>
-                </div>
-                <button type="submit">Create</button>
-            </form>
 </body>
 </html>
