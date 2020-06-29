@@ -21,7 +21,7 @@ submit.style.display = "none";
 // Checks if the first name & last name don't have any numbers in the name
 function textValidation() {
     if (firstname.value.match(numbers) && lastname.value.match(numbers)) {
-        alert('Geen cijfers gebruiken bij namen');
+        alert('No numbers in the name');
     } else {
         textvalidate = true;
     }
